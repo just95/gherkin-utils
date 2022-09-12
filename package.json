@@ -1,8 +1,11 @@
 {
   "name": "gherkin-utils",
   "version": "1.0.0",
-  "description": "Wrapper for @cucumber/gherkin-utils with fixed dependencies",
+  "description": "Wrapper for @cucumber/gherkin-utils CLI with fixed dependencies",
   "main": "index.js",
+  "bin": {
+    "gherkin-utils": "bin/gherkin-utils"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
