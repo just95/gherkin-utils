@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/just95/gherkin-utils/issues"
   },
-  "homepage": "https://github.com/just95/gherkin-utils#readme"
+  "homepage": "https://github.com/just95/gherkin-utils#readme",
+  "dependencies": {
+    "@cucumber/gherkin": "^24.0.0",
+    "@cucumber/gherkin-utils": "^8.0.0",
+    "source-map-support": "^0.5.21"
+  }
 }
