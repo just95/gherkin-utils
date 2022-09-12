@@ -4,7 +4,7 @@
   "description": "Wrapper for @cucumber/gherkin-utils CLI with fixed dependencies",
   "main": "index.js",
   "bin": {
-    "gherkin-utils": "bin/gherkin-utils"
+    "gherkin-utils": "bin/gherkin-utils.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
